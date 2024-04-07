@@ -43,7 +43,7 @@ body{
     max-width: 100%;
     display: inline-block;
     cursor: pointer;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .navbar a{
     margin:1.2rem ;
@@ -88,7 +88,7 @@ color: hsla(0, 1%, 14%, 0.863);
     background-repeat: no-repeat;
 
 }
-.container{
+ .container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,7 +104,7 @@ color: hsla(0, 1%, 14%, 0.863);
     flex-direction: column;
     padding-right: 40px;
     width: 50%;
-}
+} 
 .text{
     max-width: 580px;
  font-size: 3.8rem;
@@ -148,11 +148,87 @@ img{
     max-width: 100%;
     vertical-align: middle;
     display: inline-block;
-}
-.home-img{
+} 
+ .home-img{
 
     display: flex;
     width: 50%;
     justify-content: flex-end;
     align-items: center;
+}
+.bg-section{
+    position: relative;
+    padding: 140px 3%;
+    background-color: transparent;
+    background-image: url(./images/5e865e09d8efa3b4c076b5ee_BG\ Shape\ Content\ \(1\).svg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 96% 90%;
+} 
+.bg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     position: relative;
+    width: 100%;
+
+}
+.bg-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start; 
+    max-width: 780px;
+}
+.bg-content h1{
+    color: #35b8be;
+    font-size: 3.2rem;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    text-transform: capitalize;
+}
+.bg-content p{
+    color:#546285;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-bottom: 60px;
+
+}
+.bg-content .btn{
+    margin-left: 2rem;
+}
+.bg-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+@media(max-width:991px){
+    .container{
+         flex-wrap: wrap; 
+    }
+    .home-text{
+        width: 100%;
+        margin-bottom: 40px;
+        padding-left: 40px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .home-img{
+
+        width: 100%;
+        justify-content: center;
+        margin-top: 60px;
+    }
 }
